@@ -4,14 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
-span{
-  border: 1px solid #ffffff;
-  padding: 2rem;
-  cursor: arrow;
-  font-size: 2rem;
+
+.game-board {
+  display:grid;
+  grid-template-rows:60px 60px 60px;
+  grid-template-columns:60px 60px 60px;
 }
-.row{
+body{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.box {
+  background-color: rgb(44, 42, 42);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  border: 1px solid #000;
+  cursor: pointer;
 }
