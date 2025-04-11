@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+span{
+  border: 1px solid #ffffff;
+  padding: 2rem;
+  cursor: arrow;
+  font-size: 2rem;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
